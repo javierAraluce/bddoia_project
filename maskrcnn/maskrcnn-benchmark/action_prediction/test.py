@@ -89,7 +89,7 @@ def test(cfg, args):
                 reason_cpu = dataBatch['reason']
                 reasonBatch = reason_cpu.to(device)
 
-                pred, pred_reason = model(imBatch)
+                pred, pred_reason, _ = model(imBatch)
 
             else:
                 pred = model(imBatch)
@@ -241,7 +241,7 @@ def main():
     parser = argparse.ArgumentParser(description="Action Prediction Training")
     parser.add_argument(
         "--config-file",
-        default="./maskrcnn-benchmark/configs/baseline.yaml",
+        default="./maskrcnn/maskrcnn-benchmark/configs/baseline.yaml",
         metavar="FILE",
         help="path to maskrcnn_benchmark config file",
         type=str,
@@ -270,19 +270,19 @@ def main():
         "--imageroot",
         type=str,
         help="Directory to the images",
-        default="./datasets/data25k/lastframe/"
+        default="./dataset/data25k/"
     )
     parser.add_argument(
         "--gtroot",
         type=str,
         help="Directory to the groundtruth",
-        default="./datasets/data25k/info/val_25k_image_action_6.json"
+        default="./dataset/test_25k_images_actions.json"
     )
     parser.add_argument(
         "--reasonroot",
         type=str,
         help="Directory to the reason gt",
-        default="./datasets/data25k/info/val_25k_images_reasons.json"
+        default="./dataset/test_25k_images_reasons.json"
     
     )
     parser.add_argument(
@@ -301,13 +301,13 @@ def main():
         "--batch_size",
         type=int,
         help="Batch Size",
-        default=1
+        default=2
     )
     parser.add_argument(
         "--model_root",
         type=str,
         help="Directory to the trained model",
-        default="./"
+        default="./net_Final.pth"
     )
     parser.add_argument(
         "--output_dir",

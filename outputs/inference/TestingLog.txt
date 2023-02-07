@@ -1,0 +1,1 @@
+Namespace(batch_size=1, config_file='./maskrcnn/maskrcnn-benchmark/configs/baseline.yaml', gtroot='./dataset/test_25k_images_actions.json', imHeight=720, imWidth=1280, imageroot='./dataset/data25k/', is_cat=False, model_root='./net_Final.pth', opts=[], output_dir='./output/', reasonroot='./dataset/test_25k_images_reasons.json', side=False)

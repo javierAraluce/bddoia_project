@@ -1,0 +1,10 @@
+# ninja log v5
+0	9065	1675772562199514790	/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/build/temp.linux-x86_64-3.7/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/maskrcnn_benchmark/csrc/cuda/deform_pool_kernel_cuda.o	ad4b3b32add34f1
+0	9221	1675772562351515664	/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/build/temp.linux-x86_64-3.7/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/maskrcnn_benchmark/csrc/cuda/nms.o	2f56541082e59799
+0	9332	1675772562463516307	/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/build/temp.linux-x86_64-3.7/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/maskrcnn_benchmark/csrc/cuda/ROIPool_cuda.o	b0096bf0167b6d04
+1	9416	1675772562547516791	/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/build/temp.linux-x86_64-3.7/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/maskrcnn_benchmark/csrc/cuda/ROIAlign_cuda.o	13248ae7f7bcd247
+1	9786	1675772562919518929	/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/build/temp.linux-x86_64-3.7/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/maskrcnn_benchmark/csrc/cuda/deform_conv_kernel_cuda.o	7dba6223a26b29e2
+0	7975	1675772616575826112	/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/build/temp.linux-x86_64-3.7/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/maskrcnn_benchmark/csrc/cuda/SigmoidFocalLoss_cuda.o	358a1f45a5f4e7e0
+0	11867	1675772620463848273	/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/build/temp.linux-x86_64-3.7/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/maskrcnn_benchmark/csrc/cpu/ROIAlign_cpu.o	8f1269eac429e524
+0	12028	1675772620623849184	/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/build/temp.linux-x86_64-3.7/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/maskrcnn_benchmark/csrc/cpu/nms_cpu.o	c5aa9590ea9ab81b
+0	14996	1675772623591866092	/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/build/temp.linux-x86_64-3.7/root/Tesis/Repos/bddoia_project/maskrcnn/maskrcnn-benchmark/maskrcnn_benchmark/csrc/vision.o	ee30667d1e0e8c98
